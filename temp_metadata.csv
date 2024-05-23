@@ -1,0 +1,5 @@
+Table Name, Column Name, Column Type, ClusteringKey, IndexName, IndexType
+Student, SID, java.lang.Integer, True, null, null
+Student, Major, java.lang.String, False, null, null
+Student, Sname, java.lang.String, False, null, null
+Student, SGPA, java.lang.Double, False, gpaIndex, B+Tree
